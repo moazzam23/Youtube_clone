@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+height: 50px;
+width: 100%;
+}
+.header .start{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.header .start svg{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.header .start img{
+    height: 90px;
+    width: 140px;
+}
+.header .middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .middle .middle2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.header .middle .middle2 input{
+padding:10px 10px;
+width: 450px;
+font-size: 15px;
+border: 1px solid black;
+border-radius: 30px;
+}
+.header .middle2 .middleicon{
+    margin-left: -50px;
+  
+}
+.header .middle .middleicon2{
+    border-radius: 50%;
+    margin-left: 20px;
+    font-size: 35px;
+    padding: 5px;
+    background-color: rgb(201, 198, 198);
+}
+
+.header .end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 650px) {
+    .header .middle .middle2 input {
+        width: 220px; /* Adjust input width for smaller screens */
+    }
+    
+    .header .start img {
+        height: 70px; /* Adjust logo height for smaller screens */
+        width: 120px; /* Adjust logo width for smaller screens */
+    }
+    
+    .header .middle .middle2 {
+        gap: 20px; /* Adjust gap between elements for smaller screens */
+    }
+    .header .middle .middleicon2  {
+        font-size: 30px; /* Adjust gap between elements for smaller screens */
+    }
+    
+    .header .middle .middle2 input {
+        font-size: 13px; /* Adjust font size for smaller screens */
+    }
+    
+    .header .end {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}

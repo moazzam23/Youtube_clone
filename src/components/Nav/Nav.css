@@ -1,0 +1,47 @@
+.navbar-container {
+    overflow-x: auto; /* or overflow-x: scroll; */
+    white-space: nowrap; /* Prevent items from wrapping */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
+    user-select: none;/*
+     Internet Explorer/Edge */
+ height: 50px;
+    }
+  
+  .navbar-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: capitalize;
+    margin-left: 355px; /* Adjusted to match the width of the sidebar */
+    width: calc(100% - 200px); /* Adjusted to accommodate the sidebar width */
+  }
+  
+  .navbar p {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+
+  @media screen and (max-width: 650px) {
+    .navbar {
+      margin-left: 200px; /* Adjust margin for smaller screens */
+      width: 80%; /* Navbar takes full width */
+      /* padding: 5px; Adjust padding for smaller screens */
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .navbar {
+      margin-left: 200px; /* Adjust margin for smaller screens */
+      width: 80%; /* Navbar takes full width */
+      padding: 5px; /* Adjust padding for smaller screens */
+    }
+  }

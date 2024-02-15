@@ -1,0 +1,53 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;    
+}
+
+.home{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+}
+.home .card{
+        display: block;
+        flex-direction: column;
+        height: 280px;
+        width: 330px;
+        padding: 10px;
+}
+.home .card .cardimage{
+        height: 100px;
+        width: 320px;
+        border-radius: 10px;
+}
+.home .card .cardimage .cardvedio{
+        border-radius: 10px;
+}
+
+.home .card .cardtitle{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.home .card .cardtitle .cardtag{ 
+        font-weight: 800;
+font-size: 15px;
+text-transform: capitalize;
+}
+.home .card .cardchan{
+        font-weight: 600;
+        font-size: 15px;
+        text-transform: capitalize;
+        padding-top: 15px;  
+}
+.home .card .cardend{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+}

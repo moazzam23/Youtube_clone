@@ -1,0 +1,81 @@
+{
+"data":[
+    {
+      "title": "Home",
+      "icon": "home",
+      "href": "/"
+    },
+    {
+      "title": "Shorts",
+      "icon": "save",
+      "href": "/shorts"
+    },
+    {
+      "title": "Subscription",
+      "icon": "email",
+      "href": "/subscription"
+    } 
+  ],
+"data2":[
+    {
+      "title": "channel",
+      "icon": "cast",
+      "href": "/contact"
+    },
+    {
+      "title": "History",
+      "icon": "history",
+      "href": "/contact"
+    }
+    ,
+    {
+      "title": "Watch Later",
+      "icon": "alarm",
+      "href": "/contact"
+    }
+    ,
+    {
+      "title": "Your Vedios",
+      "icon": "tv",
+      "href": "/contact"
+    }
+    
+  ],
+"data3":[
+    {
+      "title": "channel",
+      "icon": "cast",
+      "href": "/contact"
+    },
+    {
+      "title": "History",
+      "icon": "history",
+      "href": "/contact"
+    }
+    ,
+    {
+      "title": "Watch Later",
+      "icon": "alarm",
+      "href": "/contact"
+    }
+    ,
+    {
+      "title": "Your Vedios",
+      "icon": "tv",
+      "href": "/contact"
+    }
+    
+  ],
+"data4":[
+    {
+      "title": "Like",
+      "icon": "like",
+      "href": "/like"
+    },
+    {
+      "title": "Fav",
+      "icon": "heart",
+      "href": "/contact"
+    } 
+  ]
+  }
