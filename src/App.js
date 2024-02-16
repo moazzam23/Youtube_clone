@@ -1,10 +1,10 @@
 
 import { BrowserRouter as Router , Route , Routes} from "react-router-dom"
 import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Signup from "./Pages/Signup";
 import "./App.css";
 import { SidebarProvider } from "./Context/Sidebar";
+import Shorts from "./Pages/Shorts";
+import Subcritpion from "./Pages/Subcritpion";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/"  element={<Home/>}/>
-        <Route path="/shorts"  element={<Login/>}/>
-        <Route path="/signup"  element={<Signup/>}/>
+        <Route path="/shorts"  element={<Shorts/>}/>
+        <Route path="/subscription"  element={<Subcritpion/>}/>
       </Routes>
     </Router>
     </SidebarProvider>

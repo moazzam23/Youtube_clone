@@ -8,12 +8,12 @@
     {
       "title": "Shorts",
       "icon": "save",
-      "href": "/"
+      "href": "/shorts"
     },
     {
       "title": "Subscription",
       "icon": "email",
-      "href": "/"
+      "href": "/subscription"
     } 
   ],
 "data2":[
