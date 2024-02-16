@@ -8,36 +8,36 @@
     {
       "title": "Shorts",
       "icon": "save",
-      "href": "/shorts"
+      "href": "/"
     },
     {
       "title": "Subscription",
       "icon": "email",
-      "href": "/subscription"
+      "href": "/"
     } 
   ],
 "data2":[
     {
       "title": "channel",
       "icon": "cast",
-      "href": "/contact"
+      "href": "/"
     },
     {
       "title": "History",
       "icon": "history",
-      "href": "/contact"
+      "href": "/"
     }
     ,
     {
       "title": "Watch Later",
       "icon": "alarm",
-      "href": "/contact"
+      "href": "/"
     }
     ,
     {
       "title": "Your Vedios",
       "icon": "tv",
-      "href": "/contact"
+      "href": "/"
     }
     
   ],
@@ -45,24 +45,24 @@
     {
       "title": "channel",
       "icon": "cast",
-      "href": "/contact"
+      "href": "/"
     },
     {
       "title": "History",
       "icon": "history",
-      "href": "/contact"
+      "href": "/"
     }
     ,
     {
       "title": "Watch Later",
       "icon": "alarm",
-      "href": "/contact"
+      "href": "/"
     }
     ,
     {
       "title": "Your Vedios",
       "icon": "tv",
-      "href": "/contact"
+      "href": "/"
     }
     
   ],
@@ -70,12 +70,51 @@
     {
       "title": "Like",
       "icon": "like",
-      "href": "/like"
+      "href": "/"
     },
     {
       "title": "Fav",
       "icon": "heart",
-      "href": "/contact"
+      "href": "/"
     } 
+  ],
+  "data5": [{
+    "title": "Login /Sing Up",
+    "icon": "login",
+    "href": "/"
+  }],
+  "data6":[
+    {
+      "title": "Google Account",
+      "icon": "person",
+      "href": "/"
+    },
+    {
+      "title": "Switch Account",
+      "icon": "sync",
+      "href": "/"
+    },
+    {
+      "title": "Sign Out",
+      "icon": "logout",
+      "href": "/"
+    }  
+  ],
+  "data7":[
+    {
+      "title": "Youtube Studio",
+      "icon": "shop",
+      "href": "/"
+    },
+    {
+      "title": "Purchase and Membership",
+      "icon": "book",
+      "href": "/"
+    },
+    {
+      "title": "Your Data in Youtube",
+      "icon": "folder",
+      "href": "/"
+    }  
   ]
   }

@@ -13,10 +13,9 @@ const Sidebar = () => {
   };
 
   const { isOpen } = useSidebar();
- 
 
   return (
-    <div className={`sidebar ${isOpen ? "open" : ""}`} >
+    <div className={`sidebar ${isOpen ? "open" : ""}`}>
       <ul>
         {items.data.map((item, index) => (
           <li key={index}>

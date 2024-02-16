@@ -88,3 +88,48 @@ border-radius: 30px;
         font-size: 20px; /* Adjust font size for smaller screens */
     }
 }
+.submenu {
+    position: absolute;
+    top: calc(100% - 5px);
+    width: 250px; /* Position the submenu below the parent */
+    right: 0;
+    z-index: 999;
+    border-radius: 10px;
+    background-color: rgb(226, 222, 222); /* Ensure the submenu appears above other content */
+  }
+  .submenu.open ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .line {
+    width: 100%;
+    border: 1px solid white;
+  }
+ .submenu ul {
+    padding: 10px;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+ .submenu ul li {
+font-size: 15px;
+text-decoration: none;
+
+  }
+  .submenu ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    gap: 10px;
+    text-decoration: none;
+   
+  }
