@@ -4,6 +4,7 @@ import React from 'react'
 import Pagelayouts from '../components/PageLayout/Pagelayouts'
 import { SiYoutubeshorts} from "react-icons/si"
 import data2 from "../Data/Shorts.json"
+import data from "../Data/Sidebar.json"
 import { IoMdMore } from 'react-icons/io'
   
 const Channel = () => {
@@ -11,7 +12,9 @@ const Channel = () => {
 <Pagelayouts>
 <div style={{paddingTop:"30px"}} >
         <div className='channelname'>
-            <Avatar src='' alt='pic'   sx={{ width: 176, height: 176 }}  />
+        {/* {data.data10.map((data)=>( */}
+            <Avatar src={data.data10.userImageUrl} alt='pic'   sx={{ width: 176, height: 176 }}  />
+            {/* ))} */}
 <div className='chanelown'>
     <h1>Mirza Muhammad Moazzam Baig</h1>
     <h4 style={{color:"grey", paddingTop:"10px"}} > @moazzambaig9033 . 3 Vedios </h4>
@@ -52,33 +55,37 @@ const Channel = () => {
 <hr style={{marginTop:"20px"}}/>
 <section  style={{paddingTop:"20px"}}>
     <h2> Uploads</h2>
-    <div className='channeluploads'>
+    {data2.slice(0, 2).map((data,index)=>(
+    <div className='channeluploads' key={index}>
     <video className='channelvedio' width="100%"  controls>
-          <source src={"videoUrl"} type="video/mp4" />
+          <source src={data.videoUrl} type="video/mp4" />
         </video>
-        <div>
-            <div>
-               <div>
+            <div style={{display:"flex" , flexDirection:"row",gap:"510px",paddingTop:"30px",paddingLeft:"20px",fontSize:"20px",fontWeight:"900",alignContent:"center",justifyContent:"space-between" }}>
+              
+               <div style={{display:"flex",flexDirection:"column",alignItems:"flex-start",gap:"5px"}}>
                <h4>hello</h4>
-               <div>
                <label>2 views</label>
                 <label>4 views</label>
                </div>
-               </div>
 <IoMdMore/>
             </div>
-        </div>
+        
     </div>
+    ))}
 </section>
        
-    <hr/>
-  <section>
+<hr style={{marginTop:"20px"}}/>
+  <section style={{padding:"20px 0"}} >
     <h2>Subscriptions</h2>
-    <div>
-        <Avatar src='' alt='pic'/>
-        <label> Name</label>
-        <label> Subscribers </label>
-        <Button>Subscribed</Button>
+    <div className='channelsubsc2' >
+    {data2.map((data,index)=>(
+<div className='channelsubsc' key={index}>
+<Avatar src={data.userImageUrl} alt='pic' sx={{height:130,width:130}}/>
+        <label> {data.channelName}</label>
+        <label> {data.like} </label>
+        <Button style={{color:"black", backgroundColor:"lightgray"}}> Subscribed</Button>
+</div>
+    ))}
     </div>
   </section>
     </div>
