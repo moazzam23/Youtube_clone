@@ -45,19 +45,19 @@ const Sidebar = () => {
             </a>
           </li>
         ))}
-        <li onClick={toggleShowMore}>
-          <h4
-            style={{
+        <li style={{color:"black",paddingTop:"-40px"}} onClick={toggleShowMore}>
+          
+            {/* style={{
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
               color: "black",
-              paddingTop: "-60px",
-            }}
-          >
-            Show More{" "}
+              paddingTop: "-20px",
+            }} */}
+          
             {showMore ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
-          </h4>
+            Show More{" "}
+          
         </li>
         {showMore &&
           items.data4.map((item, index) => (

@@ -18,13 +18,19 @@
   ],
 "data2":[
     {
-      "title": "channel",
-      "icon": "cast",
-      "href": "/"
-    },
+      "title": "Your Channel",
+      "icon": "portrait",
+      "href": "/channel"
+    }    ,
+   
     {
       "title": "History",
       "icon": "history",
+      "href": "/"
+    },
+    {
+      "title": "Your Vedios",
+      "icon": "slideshow",
       "href": "/"
     }
     ,
@@ -33,13 +39,7 @@
       "icon": "alarm",
       "href": "/"
     }
-    ,
-    {
-      "title": "Your Vedios",
-      "icon": "tv",
-      "href": "/"
-    }
-    
+
   ],
 "data3":[
     {
@@ -68,13 +68,13 @@
   ],
 "data4":[
     {
-      "title": "Like",
-      "icon": "like",
+      "title": "Liked Vedio",
+      "icon": "publish",
       "href": "/"
     },
     {
       "title": "Fav",
-      "icon": "heart",
+      "icon": "shop",
       "href": "/"
     } 
   ],
